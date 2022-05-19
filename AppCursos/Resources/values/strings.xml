@@ -1,0 +1,14 @@
+<resources>
+  <string name="app_name">AppCursos</string>
+  <string name="action_settings">Settings</string>
+  <string name="txtTitulo">CURSOS</string>
+  <string name="txtcurso1">Conceptos basicos de BD</string>
+  <string name="txtcurso2">Acciones de una BD</string>
+  <string name="txtcurso3">Manejo de tablas dinamicas</string>
+  <string name="txtcurso4">Acciones de una BD</string>
+  <string name="txtTitulo2">Lista de Conceptos basicos de BD</string>
+  <string name="txtNVideo">Nombre  del video</string>
+  <string name="txturlYt">URL Youtube</string>
+  <string name="txtNArchivo">Nombre  del archivo</string>
+  <string name="txturlvideo">URL Video</string>
+</resources>

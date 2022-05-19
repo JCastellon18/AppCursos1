@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ced6e0">
+     <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:background="#2ed573"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1">
+        <TextView
+            android:text="@string/txtTitulo"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:layout_marginVertical="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout2" >
+        <Refractored.Controls.CircleImageView
+        android:src="#f7ecde"
+            android:layout_centerHorizontal="true"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/circleImageView2" />
+        <Refractored.Controls.CircleImageView
+            android:src="@drawable/moduloscurso"
+            android:layout_centerInParent="true"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/imgConceptos" />
+    </RelativeLayout>
+    <TextView
+        android:text="@string/txtcurso1"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+        <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout3" >
+        <Refractored.Controls.CircleImageView
+        android:src="#f7ecde"
+            android:layout_centerHorizontal="true"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/circleImageView2" />
+        <Refractored.Controls.CircleImageView
+            android:src="@drawable/database"
+            android:layout_centerInParent="true"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/imgAcciones" />
+    </RelativeLayout>
+    <TextView
+        android:text="@string/txtcurso2"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout4" >
+        <Refractored.Controls.CircleImageView
+        android:src="#f7ecde"
+            android:layout_centerHorizontal="true"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/circleImageView2" />
+        <Refractored.Controls.CircleImageView
+            android:src="@drawable/excel"
+            android:layout_centerInParent="true"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/imgtablas" />
+    </RelativeLayout>
+    <TextView
+        android:text="@string/txtcurso3"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4" />
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout5" >
+        <Refractored.Controls.CircleImageView
+        android:src="#f7ecde"
+            android:layout_centerHorizontal="true"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/circleImageView2" />
+        <Refractored.Controls.CircleImageView
+            android:src="@drawable/database2"
+            android:layout_centerInParent="true"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/imgAcc" />
+    </RelativeLayout>
+    <TextView
+        android:text="@string/txtcurso4"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" />
+
+</LinearLayout>

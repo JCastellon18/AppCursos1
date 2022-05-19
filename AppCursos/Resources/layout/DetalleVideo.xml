@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1" >
+        <Refractored.Controls.CircleImageView
+            android:src="@drawable/video"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/circleImageView1" />
+        <TextView
+        android:text="@string/txtNVideo"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="70dp"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/textView1" />
+    </RelativeLayout>
+    <TextView
+        android:text=""
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtnombredetalle" />
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout2" >
+           <Refractored.Controls.CircleImageView
+            android:src="#58B19F"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/circleImageView5" />
+        <Refractored.Controls.CircleImageView
+            android:src="@drawable/link"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/circleImageView2" />
+        <TextView
+        android:text="@string/txturlYt"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    </RelativeLayout>
+    <TextView
+        android:text=""
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+                android:textColor="#ff579af2"
+        android:id="@+id/txturlyt" />
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout3" >
+        <Refractored.Controls.CircleImageView
+            android:src="@drawable/nombrebd"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/circleImageView3" />
+            <TextView
+        android:text="@string/txtNArchivo"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+    </RelativeLayout>
+    <TextView
+        android:text=""
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtbd" />
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout4" >
+            <Refractored.Controls.CircleImageView
+            android:src="#58B19F"
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/circleImageView6" />
+        <Refractored.Controls.CircleImageView
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/link"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/circleImageView4" />
+            <TextView
+        android:text="@string/txturlvideo"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"/>
+    </RelativeLayout>
+    <TextView
+        android:text=""
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txturlvideo"
+        android:textColor="#ff579af2"/>
+</LinearLayout>
+
